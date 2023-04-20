@@ -1,9 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <title>Document</title>
+    <title>Calculadora de Racao</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <h1>Calculadora de <span id="racao">Racao</span></h1>
+
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome">
+    <br>
+    <label for="peso">Peso:</label>
+    <input type="number" id="number">
+    <br>
+    <button id="calcular">Calcular</button>
+    <span id="resultado"></span>
+
     <script src="script.js"></script>
+    <script src="calculoRacao.js"></script>
 </body>
+
 </html>
