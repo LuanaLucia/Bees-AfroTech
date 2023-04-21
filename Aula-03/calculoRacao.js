@@ -1,11 +1,20 @@
 let button = document.getElementById("calcular");
 
-button.addEventListener("mouseover", calcular);
+button.addEventListener("mouseout", mudarCor);
+button.addEventListener("click", calcular);
 
-let resultado2 = document.getElementById("resultado");
+
+let elementoResultado = document.getElementById("resultado");
 
 function calcular(){
-    console.log("oi");
-    resultado2.innerHTML = "oi";
+//interpolacao
+    elementoResultado.innerHTML = "O babbage deve comer 100g por dia"
+    //  elementoResultado.innerHTML = "<span id='racao'>oi</span>";
+//   <span id="resultado">"innerHTML"</span>
+}
+
+function mudarCor(){
+
+    button.style.backgroundColor= "blueviolet";
 
 }
