@@ -26,3 +26,15 @@ span{
 #cronica{
     background-color: #fff;
 }
+
+.linha{
+    display: inline;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
