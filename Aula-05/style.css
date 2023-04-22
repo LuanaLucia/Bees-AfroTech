@@ -11,3 +11,18 @@ a{
     text-decoration: none;
     background-color:aquamarine;
 }
+img{
+    border-radius: 30px;
+    border: double 5px #d3c8c8;
+}
+
+h2{
+    color: blue;
+}
+span{
+    font-style: italic;
+}
+
+#cronica{
+    background-color: #fff;
+}
