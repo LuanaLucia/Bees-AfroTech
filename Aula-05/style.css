@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to right, #d3c8c8, rgb(95, 0, 0), #fff);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+h1{
+    color: brown;
+}
+a{
+    text-decoration: none;
+    background-color:aquamarine;
+}
