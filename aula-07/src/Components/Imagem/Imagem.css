@@ -1,0 +1,14 @@
+#divImagem{
+    border: solid 2px forestgreen;
+    height: 100px;
+    width: 100px;
+    background-color: rosybrown;
+    padding: 0;
+}
+h4{
+    margin: 0px;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
