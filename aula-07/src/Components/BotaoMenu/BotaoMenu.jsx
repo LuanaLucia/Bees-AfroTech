@@ -1,9 +1,9 @@
 import React from "react";
-import "./BotaoMenu.css"
+import "./BotaoMenu.css";
 
 function BotaoMenu(props){
     return(
-        <button>
+        <button id="btnMenu">
             {props.nome}
         </button>
     )
