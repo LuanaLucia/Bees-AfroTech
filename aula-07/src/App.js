@@ -1,13 +1,14 @@
 import './App.css';
-import ada from './ada.webp';
-import fotos from './fotos.jpg';
-import Imagem from './Components/Imagem/Imagem';
+import BotaoMenu from './Components/BotaoMenu/BotaoMenu';
+
 
 function App() {
   return (
     <div className="App">
-      <Imagem local={ada} texto='Ola'/>
-      <Imagem local={fotos} texto='Oie'/>
+      <BotaoMenu nome="Home"/>
+      <BotaoMenu nome="Catalogo"/>
+      <BotaoMenu nome="Contato"/>
+
     </div>
   );
 }
