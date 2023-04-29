@@ -1,0 +1,26 @@
+#main{
+    width: 90%;
+    min-width: 400px;
+    height: 250px;
+    background-color: rgb(225, 206, 252);
+}
+#buttons{
+    padding: 30px;
+    float:right;
+}
+#perfil-post{
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#imagem{
+    width: 150px;
+    height: 150px;
+}
+#texto{
+    width: 70%;
+}
+h1{
+    font-size: 20px;
+}

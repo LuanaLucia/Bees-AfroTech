@@ -1,0 +1,9 @@
+header{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: rgb(22, 6, 39);
+}
+span{
+    font-size: 70px;
+    margin-right: 20px;
+}

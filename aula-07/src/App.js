@@ -11,8 +11,9 @@ function App() {
       <div id='cards'>
         <Card
           imagem={fotos}
-          texto="Lorem Ipsum is simply dummy text of the printing and"
+          texto="Lorem Ipsum is simply dummy text of the printing and Lorem Ipsum is simply dummy text of the printing a Ipsum is simply dummy text of the printing and"
           titulo="Ola Mundo" />
+          
           <Card
           imagem={fotos}
           texto="Lorem Ipsum is simply dummy text of the printing and"
